@@ -52,6 +52,11 @@ namespace OrchardCore.Themes.LocalizationTheme
                 .SetVersion("1.0.0");
 
             manifest
+                .DefineStyle("LocalizationTheme-flag-icon")
+                .SetUrl("~/LocalizationTheme/css/flag-icon.min.css", "~/LocalizationTheme/css/flag-icon.css")
+                .SetVersion("3.5.0");
+
+            manifest
                 .DefineStyle("LocalizationTheme-vendor-font-awesome")
                 .SetUrl("~/LocalizationTheme/vendor/fontawesome-free/css/all.min.css", "~/LocalizationTheme/vendor/fontawesome-free/css/all.css")
                 .SetCdn("https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@5.13.0/css/all.min.css", "https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@5.13.0/css/all.css")
