@@ -1070,19 +1070,6 @@
                 "ContentType": "LinkMenuItem",
                 "ContentItemId": "[js: uuid()]",
                 "LinkMenuItemPart": {
-                  "Name": "Counter",
-                  "Url": "~/counter"
-                },
-                "LinkMenuItem": {
-                  "IconClass": {
-                    "Text": "oi oi-plus"
-                  }
-                }
-              },
-              {
-                "ContentType": "LinkMenuItem",
-                "ContentItemId": "[js: uuid()]",
-                "LinkMenuItemPart": {
                   "Name": "About",
                   "Url": "~/about"
                 },
@@ -1610,29 +1597,6 @@
           },
           "TitlePart": {
             "Title": "Contact"
-          }
-        },
-        {
-          "ContentItemId": "[js: uuid()]",
-          "ContentType": "LiquidPage",
-          "DisplayText": "Counter",
-          "Latest": true,
-          "Published": true,
-          "Owner": "[js: parameters('AdminUsername')]",
-          "Author": "[js: parameters('AdminUsername')]",
-          "LiquidPage": {},
-          "AutoroutePart": {
-            "Path": "counter",
-            "SetHomepage": false,
-            "Disabled": false,
-            "RouteContainedItems": false,
-            "Absolute": false
-          },
-          "LiquidPart": {
-            "Liquid": "{{ \"CounterButton\" | shape_new | shape_render }}"
-          },
-          "TitlePart": {
-            "Title": "Counter"
           }
         },
         {
