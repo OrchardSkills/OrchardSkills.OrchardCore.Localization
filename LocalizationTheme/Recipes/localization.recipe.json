@@ -37,9 +37,6 @@
         "OrchardCore.Features",
         "OrchardCore.Localization",
         "OrchardCore.Navigation",
-        "OrchardCore.OpenId.Server",
-        "OrchardCore.OpenId.Management",
-        "OrchardCore.OpenId.Validation",
         "OrchardCore.Recipes",
         "OrchardCore.Resources",
         "OrchardCore.Roles",
@@ -1228,7 +1225,7 @@
             "Title": "Blog"
           },
           "HtmlBodyPart": {
-            "Html": "This is the description of your blog"
+            "Html": "This is a list of our blog posts"
           },
           "AutoroutePart": {
             "Path": "blog"
@@ -1306,14 +1303,14 @@
             "SetHomepage": true
           },
           "HtmlBodyPart": {
-            "Html": "<p class=\"text-center\">Welcome to Blazing Orchard</p>"
+            "Html": "<p class=\"text-center\">Welcome to our blog website</p>"
           },
           "TitlePart": {
             "Title": "Home"
           },
           "Article": {
             "Subtitle": {
-              "Text": "Blazing Orchard"
+              "Text": "Welcome"
             },
             "Image": {
               "Paths": []
@@ -1333,14 +1330,14 @@
             "SetHomepage": false
           },
           "HtmlBodyPart": {
-            "Html": "<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Saepe nostrum ullam eveniet pariatur voluptates odit, fuga atque ea nobis sit soluta odio, adipisci quas excepturi maxime quae totam ducimus consectetur?</p><p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eius praesentium recusandae illo eaque architecto error, repellendus iusto reprehenderit, doloribus, minus sunt. Numquam at quae voluptatum in officia voluptas voluptatibus, minus!</p><p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nostrum molestiae debitis nobis, quod sapiente qui voluptatum, placeat magni repudiandae accusantium fugit quas labore non rerum possimus, corrupti enim modi! Et.</p>"
+            "Html": "<p>We are a full-service multidisciplinary blog content creator. Our creative approach is founded on our belief that less is more, simple can be significant, and every blog post is an opportunity.</p><p>We work through every phase of the blogging process to create authentic content and deliver engaging experiences. From concept through completion, we provide content that is captivating and engaging for our readers</p>"
           },
           "TitlePart": {
             "Title": "About"
           },
           "Article": {
             "Subtitle": {
-              "Text": "This is what I do."
+              "Text": "This is what we do."
             },
             "Image": {
               "Paths": [
@@ -1852,48 +1849,6 @@
         "AllowResetPassword": true,
         "UseSiteTheme": true
       }
-    },
-    {
-      "name": "OpenIdServerSettings",
-      "TestingModeEnabled": false,
-      "AccessTokenFormat": "JsonWebToken",
-      "Authority": "https://localhost:44300",
-      "EnableTokenEndpoint": true,
-      "EnableAuthorizationEndpoint": true,
-      "EnableLogoutEndpoint": true,
-      "EnableUserInfoEndpoint": true,
-      "AllowPasswordFlow": true,
-      "AllowClientCredentialsFlow": true,
-      "AllowAuthorizationCodeFlow": true,
-      "AllowRefreshTokenFlow": true,
-      "AllowImplicitFlow": false,
-      "AllowLogoutEndpoint": true,
-      "AuthorizationEndpointPath": "https://localhost:44300/connect/authorize",
-      "LogoutEndpointPath": "https://localhost:44300/connect/logout",
-      "TokenEndpointPath": "https://localhost:44300/connect/token",
-      "UserinfoEndpointPath": "https://localhost:44300/connect/userinfo"
-    },
-    {
-      "DisplayName": "Authorization Code Flow",
-      "name": "OpenIdApplication",
-      "ClientId": "code_flow_client_id",
-      "RedirectUris": "https://localhost:44358/authentication/login-callback",
-      "PostLogoutRedirectUris": "https://localhost:44358/authentication/logout-callback",
-      "AllowAuthorizationCodeFlow": true,
-      "AllowLogoutEndpoint": true,
-      "Type": "public"
-    },
-    {
-      "name": "OpenIdScope",
-      "Description": "A scope to provide api for remote clients",
-      "DisplayName": "api Scope",
-      "ScopeName": "api",
-      "Resources": "my_recipient"
-    },
-    {
-      "name": "OpenIdValidationSettings",
-      "Audience": "my_recipient",
-      "Authority": "https://localhost:44300"
     }
   ]
 }
