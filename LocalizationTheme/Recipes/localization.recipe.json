@@ -1456,6 +1456,10 @@
               "LocalizationSet": "43qesrst91grdrpjgy27ts3650",
               "Culture": "en-US"
             }
+          },
+          "LocalizationPart": {
+            "LocalizationSet": "43qesrst91grdrpjgy27ts3650",
+            "Culture": "en-US"
           }
         },
         {
@@ -1511,6 +1515,10 @@
               "LocalizationSet": "43qesrst91grdrpjgy27ts3650",
               "Culture": "fr-FR"
             }
+          },
+          "LocalizationPart": {
+            "LocalizationSet": "43qesrst91grdrpjgy27ts3650",
+            "Culture": "fr-FR"
           }
         },
         {
@@ -1615,7 +1623,7 @@
         {
           "ContentItemId": "[js: uuid()]",
           "ContentType": "Article",
-          "DisplayText": "About",
+          "DisplayText": "À propos",
           "Latest": true,
           "Published": true,
           "Owner": "[js: parameters('AdminUsername')]",
@@ -1629,11 +1637,11 @@
 
           },
           "TitlePart": {
-            "Title": "About"
+            "Title": "À propos"
           },
           "Article": {
             "Subtitle": {
-              "Text": "This is what we do."
+              "Text": "Ceci est ce que nous faisons."
             },
             "Image": {
               "Paths": [
@@ -1940,7 +1948,7 @@
                       "ContentItemId": "[js: uuid()]",
                       "ContentItemVersionId": null,
                       "ContentType": "Label",
-                      "DisplayText": "Full Name",
+                      "DisplayText": "Nom complet",
                       "Latest": false,
                       "Published": false,
                       "ModifiedUtc": null,
@@ -2115,7 +2123,7 @@
                       "ContentItemId": "[js: uuid()]",
                       "ContentItemVersionId": null,
                       "ContentType": "Button",
-                      "DisplayText": "Submit",
+                      "DisplayText": "Soumettre",
                       "Latest": false,
                       "Published": false,
                       "PublishedUtc": null,
@@ -2129,7 +2137,7 @@
                         "Id": null
                       },
                       "ButtonPart": {
-                        "Text": "Submit",
+                        "Text": "Soumettre",
                         "Type": "submit"
                       },
                       "FlowMetadata": {
@@ -2151,7 +2159,7 @@
           },
           "LocalizationPart": {
             "LocalizationSet": "4t0k47jhzypsf201g68njpn15j",
-            "Culture": "en-US"
+            "Culture": "fr-FR"
           }
         },
         {
