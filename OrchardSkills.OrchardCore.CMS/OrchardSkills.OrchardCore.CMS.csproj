@@ -5,8 +5,22 @@
   </PropertyGroup>
 
   <ItemGroup>
-    <PackageReference Include="OrchardCore.Application.Cms.Targets" Version="1.0.0-rc2-15451" />
-    <PackageReference Include="OrchardCore.Logging.NLog" Version="1.0.0-rc2-15451" />
+    <None Remove="LocalizationTheme\Localization\en.po" />
+    <None Remove="LocalizationTheme\Localization\fr.po" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <EmbeddedResource Include="LocalizationTheme\Localization\en.po">
+      <CopyToPublishDirectory>Never</CopyToPublishDirectory>
+    </EmbeddedResource>
+    <EmbeddedResource Include="LocalizationTheme\Localization\fr.po">
+      <CopyToPublishDirectory>Never</CopyToPublishDirectory>
+    </EmbeddedResource>
+  </ItemGroup>
+
+  <ItemGroup>
+    <PackageReference Include="OrchardCore.Application.Cms.Targets" Version="1.0.0-rc2-15474" />
+    <PackageReference Include="OrchardCore.Logging.NLog" Version="1.0.0-rc2-15474" />
   </ItemGroup>
 
   <ItemGroup>
