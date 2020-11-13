@@ -31,6 +31,8 @@
 
   <ItemGroup>
     <EmbeddedResource Remove="**\*.less;**\*.scss;" />
+    <EmbeddedResource Remove="Localization\en\LocalizationTheme.po" />
+    <EmbeddedResource Remove="Localization\fr\LocalizationTheme.po" />
     <EmbeddedResource Remove="wwwroot\about.html" />
     <EmbeddedResource Remove="wwwroot\contact.html" />
     <EmbeddedResource Remove="wwwroot\gulpfile.js" />
@@ -38,6 +40,11 @@
     <EmbeddedResource Remove="wwwroot\package-lock.json" />
     <EmbeddedResource Remove="wwwroot\package.json" />
     <EmbeddedResource Remove="wwwroot\post.html" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Content Include="Localization\en\LocalizationTheme.po" />
+    <Content Include="Localization\fr\LocalizationTheme.po" />
   </ItemGroup>
 
 </Project>

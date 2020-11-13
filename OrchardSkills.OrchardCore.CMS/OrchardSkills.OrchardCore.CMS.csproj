@@ -10,12 +10,12 @@
   </ItemGroup>
 
   <ItemGroup>
-    <EmbeddedResource Include="LocalizationTheme\Localization\en.po">
+    <Content Include="LocalizationTheme\Localization\en.po">
       <CopyToPublishDirectory>Never</CopyToPublishDirectory>
-    </EmbeddedResource>
-    <EmbeddedResource Include="LocalizationTheme\Localization\fr.po">
+    </Content>
+    <Content Include="LocalizationTheme\Localization\fr.po">
       <CopyToPublishDirectory>Never</CopyToPublishDirectory>
-    </EmbeddedResource>
+    </Content>
   </ItemGroup>
 
   <ItemGroup>
