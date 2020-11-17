@@ -1,0 +1,42 @@
+#: C:\Users\Angul\Documents\GitHub\OrchardSkills.OrchardCore.Localization\LocalizationTheme\Views\Shared\LoginMenu.cshtml:23
+#. <a class="dropdown-item" asp-route-area="OrchardCore.Admin" asp-controller="Admin" asp-action="Index"><i class="fa fa-desktop fa-fw"></i> @T["Dashboard"]</a>
+msgctxt "C:.Users.Angul.Documents.GitHub.OrchardSkills.OrchardCore.Localization.LocalizationTheme.Views.Shared.LoginMenu"
+msgid "Dashboard"
+msgstr "Administration"
+
+#: C:\Users\Angul\Documents\GitHub\OrchardSkills.OrchardCore.Localization\LocalizationTheme\Views\Shared\LoginMenu.cshtml:26
+#. <a class="dropdown-item" asp-route-area="OrchardCore.Users" asp-controller="ChangeEmail" asp-action="Index"><i class="fa fa-envelope fa-fw"></i> @T["Change Email"]</a>
+msgctxt "C:.Users.Angul.Documents.GitHub.OrchardSkills.OrchardCore.Localization.LocalizationTheme.Views.Shared.LoginMenu"
+msgid "Change Email"
+msgstr "Changer l'e-mail"
+
+#: C:\Users\Angul\Documents\GitHub\OrchardSkills.OrchardCore.Localization\LocalizationTheme\Views\Shared\LoginMenu.cshtml:28
+#. <a class="dropdown-item" asp-route-area="OrchardCore.Users" asp-controller="Account" asp-action="ChangePassword"><i class="fa fa-lock fa-fw"></i> @T["Change Password"]</a>
+msgctxt "C:.Users.Angul.Documents.GitHub.OrchardSkills.OrchardCore.Localization.LocalizationTheme.Views.Shared.LoginMenu"
+msgid "Change Password"
+msgstr "Changer le mot de passe"
+
+#: C:\Users\Angul\Documents\GitHub\OrchardSkills.OrchardCore.Localization\LocalizationTheme\Views\Shared\LoginMenu.cshtml:31
+#. <a class="dropdown-item" asp-route-area="OrchardCore.Users" asp-controller="Account" asp-action="ExternalLogins"><i class="fa fa-user-lock fa-fw"></i> @T["External Logins"]</a>
+msgctxt "C:.Users.Angul.Documents.GitHub.OrchardSkills.OrchardCore.Localization.LocalizationTheme.Views.Shared.LoginMenu"
+msgid "External Logins"
+msgstr "Connexions externes"
+
+#: C:\Users\Angul\Documents\GitHub\OrchardSkills.OrchardCore.Localization\LocalizationTheme\Views\Shared\LoginMenu.cshtml:34
+#. <button type="submit" class="btn btn-link navbar-btn dropdown-item"><i class="fa fa-sign-out-alt fa-fw"></i> @T["Log off"]</button>
+msgctxt "C:.Users.Angul.Documents.GitHub.OrchardSkills.OrchardCore.Localization.LocalizationTheme.Views.Shared.LoginMenu"
+msgid "Log off"
+msgstr "Se déconnecter"
+
+#: C:\Users\Angul\Documents\GitHub\OrchardSkills.OrchardCore.Localization\LocalizationTheme\Views\Shared\LoginMenu.cshtml:41
+#. <li class="nav-item"><a class="nav-link" asp-route-area="OrchardCore.Users" asp-controller="Account" asp-action="Login"><i class="fa fa-sign-in-alt fa-fw"></i> @T["Log in"]</a></li>
+msgctxt "C:.Users.Angul.Documents.GitHub.OrchardSkills.OrchardCore.Localization.LocalizationTheme.Views.Shared.LoginMenu"
+msgid "Log in"
+msgstr "S'identifier"
+
+#: C:\Users\Angul\Documents\GitHub\OrchardSkills.OrchardCore.Localization\LocalizationTheme\Views\Shared\LoginMenu.cshtml:44
+#. <li class="nav-item"><a class="nav-link" asp-area="OrchardCore.Users" asp-controller="Registration" asp-action="Register" asp-route-returnurl="@ViewData["ReturnUrl"]"><i class="fa fa-user-plus fa-fw"></i> @T["Register"]</a></li>
+msgctxt "C:.Users.Angul.Documents.GitHub.OrchardSkills.OrchardCore.Localization.LocalizationTheme.Views.Shared.LoginMenu"
+msgid "Register"
+msgstr "S'inscrire"
+
