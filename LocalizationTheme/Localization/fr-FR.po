@@ -40,3 +40,10 @@ msgctxt "LocalizationTheme.Views.Shared.LoginMenu"
 msgid "Register"
 msgstr "S'inscrire"
 
+msgctxt "LocalizationTheme.Views.Search-Form"
+msgid "Enter your search term(s)"
+msgstr "Entrez vos termes de recherche"
+
+msgctxt "LocalizationTheme.Views.Search-Form"
+msgid "Search"
+msgstr "Rechercher"
